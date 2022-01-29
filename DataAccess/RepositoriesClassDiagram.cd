@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Repositories.EntityRepository">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>EntityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Repositories.OrderRepository">
+    <Position X="4.75" Y="2.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAIgAAAAA=</HashCode>
+      <FileName>OrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Repositories.StockItemRepository">
+    <Position X="0.75" Y="2.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>StockItemRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

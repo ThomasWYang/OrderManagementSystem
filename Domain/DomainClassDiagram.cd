@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domain.InvalidOrderStateException">
+    <Position X="2.25" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidOrderStateException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.OrderComplete">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAABQAAAIA=</HashCode>
+      <FileName>OrderComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.OrderHeader">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAEAAAIAAAAACAAAAAAAQAQAAAAABQQAAIQ=</HashCode>
+      <FileName>OrderHeader.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_state" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="OrderItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Domain.OrderItem">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAQAgAAAAAAAAAAAAAgAAQAACAAAAgAAAAAA=</HashCode>
+      <FileName>OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.OrderNew">
+    <Position X="2.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAABQAAAIA=</HashCode>
+      <FileName>OrderNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.OrderPending">
+    <Position X="5.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAABQAAAIA=</HashCode>
+      <FileName>OrderPending.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.OrderRejected">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAABQAAAIA=</HashCode>
+      <FileName>OrderRejected.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.OrderState">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAABQAAAIA=</HashCode>
+      <FileName>OrderState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.StockItem">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>StockItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Domain.OrderStates">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAACIAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>OrderState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
